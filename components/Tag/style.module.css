@@ -1,0 +1,43 @@
+.tag{
+  display: inline-block;
+
+  padding:3px 7px;
+}
+
+.primaryColor{
+  color:var(--primary);
+  border:1px solid var(--primary);
+  border-radius:20px ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.bloodColor{
+  color:var(--white);
+  background-color: var(--blood);
+  border-radius:20px ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.greenColor{
+  color:var(--green);
+  background-color: var(--green-light);
+  border-radius:20px ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.grayColor{
+  background: #B3C0D9;
+  color: var(--white);
+  border-radius: 20px;
+}

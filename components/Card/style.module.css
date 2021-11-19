@@ -1,0 +1,53 @@
+.activeStar{
+  background-color: var(--red-light);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star{
+  background-color: #BBBBBB;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 80px;
+  justify-self: center;
+}
+
+.container{
+  display: grid;
+
+  width: 260px;
+  justify-content: center;
+  padding: 15px;
+  border:1px solid gray;
+  border-radius: 20px;
+}
+
+.money{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
